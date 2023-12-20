@@ -68,25 +68,25 @@ footer {
     width: 100%;
     background-color:  rgb(211, 181, 49);
     margin-bottom: 0;
-    display: grid;
-    grid-template-rows: 50px 50px 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .redes {
-    height: 30px;
+    height: 26px;
     text-align: center;
-    align-self: center;
     padding-top: 7px;
     background-color:  rgb(211, 181, 49);
     color: rgb(95,26, 26);
+    justify-content: center;
 }
 
 .iconos {
-    height: 70px;
+    height: 60x;
     text-align: center;
-    align-self: center;
     padding-top: 10px;
     background-color:  rgb(211, 181, 49);
+    justify-content: center;
 }
 
 .icon {
@@ -100,7 +100,7 @@ footer {
     color: white;
     height: 30px;
     text-align: center;
-    align-self: center;
+    justify-content: center;
 }
 
 /* FIN ESTILOS FOOTER */
