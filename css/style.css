@@ -433,7 +433,6 @@ main {
         width: 240px;
         background-color: white;
         text-align: center;
-        margin-left:80px ;
         border-radius: 10px;
         box-shadow: 5px 8px 5px 0px rgb(92,92,92);
         transition: transform 1s;
@@ -443,7 +442,6 @@ main {
         width: 240px;
         background-color: white;
         text-align: center;
-        margin-left: 40px;
         border-radius: 10px;
         box-shadow: 5px 8px 5px 0px rgb(92,92,92);
         transition: transform 1s;
@@ -453,7 +451,6 @@ main {
         width: 240px;
         background-color: white;
         text-align: center;
-        margin-left:80px ;
         border-radius: 10px;
         box-shadow: 5px 8px 5px 0px rgb(92,92,92);
         transition: transform 1s;
@@ -463,7 +460,6 @@ main {
         width: 240px;
         background-color: white;
         text-align: center;
-        margin-left: 40px;
         border-radius: 10px;
         box-shadow: 5px 8px 5px 0px rgb(92,92,92);
         transition: transform 1s;
@@ -501,9 +497,233 @@ main {
     }
 }
 
+@media(max-width: 549px) {
+    .encabezado {
+        grid-template-rows: 90px 30px;
+    }
+    
+    .titulo {
+        font-size: 40px;
+    }
+    
+    .lista {
+        font-size: 12px;
+    }
+
+    .menu {
+        padding: 10px 14px 10px 14px;
+    }
+    
+    main {
+        padding-top: 120px;
+    }
+    
+    .contFoot {
+        grid-template-rows: 40px 40px 20px;
+    }
+    
+    .redes {
+        font-size: 13px;
+    }
+
+    .icon {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .copy {
+        color: white;
+        height: 30px;
+    }
+
+    .copyText{
+        font-size: 11px;
+    }
+
+    
+    /*ARCHIVO INDEX */
+    
+    .contenedor1 {
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        ;
+    }
+    
+    .contenedor2 {
+        margin-top: 0px;
+        display: grid;
+        margin-bottom: 90px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    
+    .hamb {
+        width: 300px;
+        height: 300px;
+    }
+    .interna1 {
+        width: 300px;
+        justify-self: center;
+        margin-left: 0;
+    }
+    
+    .interna2 {
+        width: 300px;
+        margin-top: 50px;
+        justify-self: center;
+        margin-left: 0;
+    }
+    
+    .interna3 {
+        width: 300px;
+        justify-self: center;
+        margin-left: 0;
+    }
+    
+    .interna4 {
+        width: 300px;
+        margin-top: 50px;
+        justify-self: center;
+        margin-left: 0;
+    }
+    
+    .subTitulo {
+        padding: 13px;
+        font-size: 20px;
+    }
+
+    .parrafo {
+        padding: 13px;
+        padding-top: 8px;
+        font-size: 13px;
+    }
+    
+    .bebidas {
+        font-size: 20px;
+    }
+    
+    .pBebidas {
+        font-size: 14px;
+    }
+    
+    .imgBebidas {
+        width: 300px;
+        height: 300px;
+    }
+
+    /*ARCHIVO CONTACTO */
+
+.form {
+    padding-bottom: 30px;
+}
+
+.contacto {
+   padding-top: 50px;
+   font-size: 22px;
+}
+
+.pContacto {
+    padding-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.formulario {
+    width: 260px;
+}
+
+.input {
+    width: 220px;
+}
+
+.label {
+    font-size: 13px;
+}
+
+.enviar {
+    width: 220px;
+}
+
+/*ARCHIVO NOSOTROS */
+
+.nosotros {
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+.pNosotros {
+    font-size: 16px;
+}
+
+.slide {
+    width: 300px;
+}
+
+.mision {
+    font-size: 22px;
+}
+
+.pMision {
+    font-size: 16px;
+}
+
+/*ARCHIVO DELIVERY */
+
+.h2 {
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+.pH2 {
+    font-size: 16px;
+}
+
+.fotoPedido {
+    width: 300px;
+    height: 300px;
+}
+
+.texto {
+    font-size: 15px;
+}
+
+.contBoton {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.botonPedido {
+    background-color:  rgb(211, 181, 49);
+    height: 26px;
+    width: 120px;
+    cursor: pointer;
+}
+
+/*ARCHIVO LOCALES */
+
+.local {
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+.pLocal {
+    font-size: 15px;
+}
+
+.mapa {
+    width: 300px;
+    height: 300px;
+}
+}
+    
+
 /* DISPOSITIVO MOVIL */
 
-@media(max-width: 350px) {
+@media(max-width: 400px) {
     .encabezado {
         grid-template-rows: 90px 30px;
     }
