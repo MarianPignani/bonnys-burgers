@@ -1,0 +1,804 @@
+main {
+    width: 100%;
+    padding-top: 150px;
+    background-color: rgb(207, 233, 241);
+
+    @include intermedio {
+        padding-top: 120px;
+    }
+
+
+/*ARCHIVO INDEX */
+    .titlee {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 30px;
+        color: $color2;
+
+        @include intermedio {
+            padding-top: 50px;
+            font-size: 22px;
+        }
+    }
+    .pIndex {
+        text-align: center;
+        color: $color2;
+        font-weight: bold;
+        font-size: 22px;
+
+        @include intermedio {
+            font-size: 14px;
+        }
+    }
+
+    .contenedor1 {
+        margin-top: 90px;
+        width: 100%;
+        margin-bottom: 90px;
+        display: grid;
+        grid-template-columns: auto 180px auto;
+
+        @include tablet {
+            
+        grid-template-columns: auto 140px auto;
+        }
+
+        @include intermedio {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            grid-template-columns: auto;
+            grid-template-rows: auto 140px auto;
+        }
+
+        @include mobile {
+            margin-top: 40px;
+        }
+    
+
+        .interna1 {
+            width: 320px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 5px 8px 5px 0px rgb(92,92,92);
+            transition: transform 1s;
+            justify-self: center;
+
+            @include tablet {
+                width: 210px;
+            }
+
+            @include intermedio {
+                margin-left: 0;
+            }
+
+            @include mobile {
+                width: 200px;
+                margin-left: 0;
+            }
+
+            &:hover {
+                transform: scale(1.03);
+                cursor: pointer;
+            }
+
+            .subTitulo {
+                padding: 15px 30px 15px 30px;
+                color: $color2;
+
+                @include tablet {
+                    padding: 15px;
+                }
+
+                @include intermedio {
+                    padding: 13px;
+                    font-size: 20px;
+                }
+            }
+        
+            .parrafo {
+                padding: 5px 30px 20px 30px;
+                color: $color2;
+
+                @include tablet {
+                    padding: 15px;
+                }
+
+                @include intermedio {
+                    padding: 13px;
+                    padding-top: 8px;
+                    font-size: 13px;
+                }
+            }
+
+            .hamb {
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+
+                @include tablet {
+                    width: 210px;
+                    height: 210px;
+                }
+
+                @include mobile {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+        }
+
+        .descuento {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            justify-self: center;
+            background-color: $color1;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+        
+            @include tablet {
+                height: 100px;
+                width: 100px;
+            }
+
+            @include intermedio {
+                margin-top: 25px;
+            }
+        }
+
+        .desc {
+            
+            font-family: 'Luckiest Guy', cursive;
+            text-align: center;
+            color: $color2;
+            font-size: 26px;
+
+            @include tablet {
+                font-size: 20px;
+            }
+        }  
+
+        .animate__heartBeat {
+            animation-iteration-count: infinite;
+        }
+
+        .interna2 {
+            width: 320px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 5px 8px 5px 0px rgb(92,92,92);
+            transition: transform 1s;
+            justify-self: center;
+
+            @include tablet {
+                width: 210px;
+            }
+
+            @include intermedio {
+                margin-left: 0px;
+                margin-top: 25px;
+            }
+
+            @include mobile {
+                width: 200px;
+                margin-left: 0;
+            }
+
+            &:hover {
+                transform: scale(1.03);
+                cursor: pointer;
+            }
+
+            .subTitulo {
+                padding: 15px 30px 15px 30px;
+                color: $color2;
+
+                @include tablet {
+                    padding: 15px;
+                }
+
+                @include intermedio {
+                    padding: 13px;
+                    font-size: 20px;
+                }
+            }
+        
+            .parrafo {
+                padding: 5px 30px 20px 30px;
+                color: $color2;
+
+                @include tablet {
+                    padding: 15px;
+                }
+
+                @include intermedio {
+                    
+                    padding: 13px;
+                    padding-top: 8px;
+                    font-size: 13px;
+                }
+            }
+
+            .hamb {
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+
+                @include tablet {
+                    width: 210px;
+                    height: 210px;
+                }
+
+                @include mobile {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+    
+    .contenedor2 {
+        margin-top: 90px;
+        width: 100%;
+        margin-bottom: 90px;
+        display: grid;
+        grid-template-columns: auto 180px auto;
+
+        @include tablet {
+            
+            grid-template-columns: auto 140px auto;
+            }
+
+        @include intermedio {
+            grid-template-columns: auto;
+            grid-template-rows: auto 140px auto;
+            margin-bottom: 50px;
+        }
+    
+
+        .interna3 {
+            width: 320px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 5px 8px 5px 0px rgb(92,92,92);
+            transition: transform 1s;
+            justify-self: center;
+
+            @include tablet {
+                width: 210px;
+            }
+
+            @include intermedio {
+                margin-left: 0;
+            }
+
+            @include mobile {
+                width: 200px;
+                margin-left: 0;
+            }
+
+            &:hover {
+                transform: scale(1.03);
+                cursor: pointer;
+            }
+
+            .subTitulo {
+                padding: 15px 30px 15px 30px;
+                color: $color2;
+
+                @include tablet {
+                    padding: 15px;
+                }
+
+                @include intermedio {
+                    padding: 13px;
+                    font-size: 20px;
+                }
+            }
+        
+            .parrafo {
+                padding: 5px 30px 20px 30px;
+                color: $color2;
+
+                @include tablet {
+                    padding: 15px;
+                }
+
+                @include intermedio {
+                    padding: 13px;
+                    padding-top: 8px;
+                    font-size: 13px;
+                }
+            }
+
+            .hamb {
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+
+                @include tablet {
+                    width: 210px;
+                    height: 210px;
+                }
+                
+                @include mobile {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+
+        .oferta {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            justify-self: center;
+            background-color: $color1;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+
+            @include tablet {
+                height: 100px;
+                width: 100px;
+            }
+
+            @include intermedio {
+                margin-top: 25px;
+            }
+        }
+
+        .ofer {
+            
+            font-family: 'Luckiest Guy', cursive;
+            text-align: center;
+            color: $color2;
+            font-size: 26px;
+
+            @include tablet {
+                font-size: 20px;
+            }
+        } 
+
+        .animate__heartBeat {
+            animation-iteration-count: infinite;
+        }
+
+        .interna4 {
+            width: 320px;
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 5px 8px 5px 0px rgb(92,92,92);
+            transition: transform 1s;
+            justify-self: center;
+
+            @include tablet {
+                width: 210px;
+            }
+
+            @include intermedio {
+                margin-left: 0;
+                margin-top: 25px;
+            }
+
+            @include mobile {
+                width: 200px;
+                margin-left: 0;
+            }
+
+            &:hover {
+                transform: scale(1.03);
+                cursor: pointer;
+            }
+
+            .subTitulo {
+                padding: 15px 30px 15px 30px;
+                color: $color2;
+
+                @include tablet {
+                    padding: 15px;
+                }
+
+                @include intermedio { 
+                    padding: 10px;
+                    font-size: 20px;
+                }
+            }
+        
+            .parrafo {
+                padding: 5px 30px 20px 30px;
+                color: $color2;
+
+                @include tablet {
+                    padding: 15px;
+                }
+
+                @include intermedio {
+                    padding: 13px;
+                    padding-top: 8px;
+                    font-size: 13px;
+                }
+            }
+
+            .hamb {
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+
+                @include tablet {
+                    width: 210px;
+                    height: 210px;
+                }
+                
+                @include mobile {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    .contBebidas {
+        text-align: center;
+    
+
+        .bebidas {
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 30px;
+            font-size: 30px;
+            color: $color2;
+
+            @include intermedio {
+                font-size: 20px;
+            }
+        }
+
+        .pBebidas {
+            text-align: center;
+            padding-bottom: 30px;
+            color: $color2;
+            font-weight: bold;
+            font-size: 22px;
+
+            @include intermedio {
+                font-size: 14px;
+            }
+        }
+
+        .imgBebidas {
+            border-radius: 10px;
+            margin-bottom: 50px;
+            box-shadow: 5px 8px 5px 0px rgb(92,92,92);
+            transition: transform 1s;
+
+            @include intermedio {
+                width: 300px;
+                height: 300px;
+            }
+
+            @include mobile {
+                width: 260px;
+                height: 260px;
+            }
+
+            &:hover {
+                transform: scale(1.03);
+                cursor: pointer;
+            }
+        }
+    }
+
+/* ARCHIVO CONTACTO */
+
+    .contacto {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 30px;
+        color: $color2;
+
+        @include intermedio {
+            padding-top: 50px;
+            font-size: 22px;
+        }
+    }
+
+    .pContacto {
+        text-align: center;
+        padding-bottom: 25px;
+        color: $color2;
+        font-weight: bold;
+        font-size: 22px;
+
+        @include intermedio {         
+            padding-bottom: 13px;
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 16px;
+        }
+    }
+
+    .form {
+        padding-bottom: 30px;
+    
+
+        .formulario {
+            width: 300px;
+            margin: auto;
+            background-image: linear-gradient(to top, $color1, $color2 );
+            padding: 20px;
+            border: 1.5px solid white;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            margin-top: 25px;
+
+            @include intermedio {
+                width: 260px;
+            }
+            
+
+            .input {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                font-size: 13px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                width: 257px;
+                padding-left: 3px;
+
+                @include intermedio {
+                    width: 220px;
+                }
+            }
+
+            .label {
+                font-size: 14px;
+                color: white;
+
+                @include intermedio {
+                    font-size: 13x;
+                }
+            }
+
+            .enviar {
+                background-color:  $color2;
+                color: white;
+                height: 24px;
+                width: 257px;
+                text-align: center;
+
+                @include intermedio {
+                    width: 220px;
+                }
+            
+                &:hover {
+                    cursor: pointer;
+                }
+            }   
+        }
+    }
+    /* ARCHIVO NOSOTROS */
+
+    .nosotros {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 30px;
+        color: $color2;
+        font-weight: bold;
+
+        @include intermedio {
+            padding-top: 50px;
+            font-size: 22px;
+        }
+    }
+
+    .pNosotros {
+        text-align: center;
+        padding-bottom: 25px;
+        color: $color2;
+        padding-left: 45px;
+        padding-right: 45px;
+        font-weight: bold;
+        font-size: 22px;
+
+        @include intermedio {
+            font-size: 16px;
+        }
+    }
+
+    .mision {
+        text-align: center;
+        padding-bottom: 25px;
+        padding-top: 50px;
+        color: $color2;
+        font-weight: bold;
+        
+        @include intermedio {
+            font-size: 22px;
+        }
+    }
+
+    .pMision {
+        text-align: center;
+        padding-bottom: 50px;
+        color: $color2;
+        padding-left: 45px;
+        padding-right: 45px;
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: 22px;
+
+        @include intermedio {
+            font-size: 16px;
+        } 
+    }
+
+    .todo {
+        display: grid;
+        width: 100%;
+    
+
+        .slide {
+            width: 400px;
+            justify-self: center;
+        
+            @include intermedio {
+                width: 300px;
+            }
+
+            @include mobile {
+                width: 280px;
+            }
+
+            .d-block {
+                border-radius: 50%;
+            }
+
+            .carousel-control-prev-icon { 
+                background-color:  $color1;
+                border-radius: 50%;
+            }
+
+            .carousel-control-next-icon { 
+                background-color:  $color1;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    /* ARCHIVO DELIVERY */
+
+    .h2 {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 30px;
+        color: $color2;
+
+        @include intermedio {
+            padding-top: 50px;
+            font-size: 22px;
+        }
+    }
+
+    .pH2 {
+        text-align: center;
+        padding-bottom: 25px;
+        color: $color2;
+        font-weight: bold;
+        font-size: 22px;
+
+        @include intermedio {
+        font-size: 16px;
+        }
+
+    }
+
+    .imgPedidos {
+        text-align: center;
+        margin-top: 30px;
+    
+
+        .fotoPedido {
+            border-radius: 10px;
+            box-shadow: 5px 8px 5px 0px rgb(92,92,92);
+            transition: transform 1s;
+
+
+            @include intermedio {
+            width: 300px;
+            height: 300px;
+            }
+
+            @include mobile {
+                width: 280px;
+                height: 280px;
+            }
+
+            &:hover {
+                transform: scale(1.03);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .texto {
+        text-align: center;
+        padding-top: 30px;
+        color: $color2;
+        font-weight: bold;
+        font-size: 22px;
+
+        @include intermedio {
+            font-size: 15px;
+        }
+    }
+
+    .contBoton {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    
+
+        .botonPedido {
+            background-color:  $color1;
+            height: 26px;
+            width: 120px;
+            cursor: pointer;
+        }
+    }
+
+    /* ARCHIVO LOCALES */
+
+    .local {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 30px;
+        color: $color2;
+
+        @include intermedio {
+            padding-top: 50px;
+            font-size: 22px;
+        }
+    }
+
+    .pLocal {
+        text-align: center;
+        padding-bottom: 40px;
+        color: $color2;
+        font-weight: bold;
+        font-size: 22px;
+
+        @include intermedio {
+            font-size: 15px;
+        }
+    }
+
+    .contMapa {
+        text-align: center;
+        padding-bottom: 60px;
+    
+
+        .mapa {
+            border-radius: 10px;
+
+            @include intermedio {
+            width: 300px;
+            height: 300px;
+            }
+
+            @include mobile {
+                width: 280px;
+                height: 280px;
+            }
+        }
+    }
+}

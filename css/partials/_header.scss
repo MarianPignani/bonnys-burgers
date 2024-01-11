@@ -1,0 +1,72 @@
+header {
+    background-color: $color1;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+
+
+    .encabezado {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 120px 30px;
+
+        @include intermedio {
+            grid-template-rows: 90px 30px;
+        }
+    
+
+        .titulo {
+            font-family: 'Luckiest Guy', cursive;
+            align-self: center;
+            justify-self: center;
+            font-size: 55px;
+            color: $color2;
+
+            @include intermedio {
+                font-size: 40px;
+            }
+
+            @include mobile {
+                font-size: 30px;
+            }
+
+        }
+
+        .listas {
+            list-style-type: none;  
+            text-align: center;
+            background-color: $color2;
+            margin: 0;
+            padding: 0;
+        
+
+            .lista {
+                display: inline-block;
+
+                @include intermedio {
+                    font-size: 12px;
+                }
+            }
+
+            .menu {
+                display: block;
+                color: white;
+                text-decoration: none;
+                width: 100%;
+                transition: 1s;
+                padding: 6px 20px 6px 20px;
+                
+                @include intermedio {
+                    padding: 10px 14px 10px 14px;
+                }
+
+                &:hover {
+                    color: $color2;
+                    background-color: white;
+                    border-radius: 5px; 
+                }
+            
+            }
+        }
+    }
+}            

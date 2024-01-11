@@ -1,0 +1,947 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Outfit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(211, 181, 49);
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+header .encabezado {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 120px 30px;
+}
+@media screen and (max-width: 549px) {
+  header .encabezado {
+    grid-template-rows: 90px 30px;
+  }
+}
+header .encabezado .titulo {
+  font-family: "Luckiest Guy", cursive;
+  align-self: center;
+  justify-self: center;
+  font-size: 55px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 549px) {
+  header .encabezado .titulo {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header .encabezado .titulo {
+    font-size: 30px;
+  }
+}
+header .encabezado .listas {
+  list-style-type: none;
+  text-align: center;
+  background-color: rgb(95, 26, 26);
+  margin: 0;
+  padding: 0;
+}
+header .encabezado .listas .lista {
+  display: inline-block;
+}
+@media screen and (max-width: 549px) {
+  header .encabezado .listas .lista {
+    font-size: 12px;
+  }
+}
+header .encabezado .listas .menu {
+  display: block;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  transition: 1s;
+  padding: 6px 20px 6px 20px;
+}
+@media screen and (max-width: 549px) {
+  header .encabezado .listas .menu {
+    padding: 10px 14px 10px 14px;
+  }
+}
+header .encabezado .listas .menu:hover {
+  color: rgb(95, 26, 26);
+  background-color: white;
+  border-radius: 5px;
+}
+
+main {
+  width: 100%;
+  padding-top: 150px;
+  background-color: rgb(207, 233, 241);
+  /*ARCHIVO INDEX */
+  /* ARCHIVO CONTACTO */
+  /* ARCHIVO NOSOTROS */
+  /* ARCHIVO DELIVERY */
+  /* ARCHIVO LOCALES */
+}
+@media screen and (max-width: 549px) {
+  main {
+    padding-top: 120px;
+  }
+}
+main .titlee {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 549px) {
+  main .titlee {
+    padding-top: 50px;
+    font-size: 22px;
+  }
+}
+main .pIndex {
+  text-align: center;
+  color: rgb(95, 26, 26);
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (max-width: 549px) {
+  main .pIndex {
+    font-size: 14px;
+  }
+}
+main .contenedor1 {
+  margin-top: 90px;
+  width: 100%;
+  margin-bottom: 90px;
+  display: grid;
+  grid-template-columns: auto 180px auto;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 {
+    grid-template-columns: auto 140px auto;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: auto;
+    grid-template-rows: auto 140px auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contenedor1 {
+    margin-top: 40px;
+  }
+}
+main .contenedor1 .interna1 {
+  width: 320px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px 0px rgb(92, 92, 92);
+  transition: transform 1s;
+  justify-self: center;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .interna1 {
+    width: 210px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor1 .interna1 {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contenedor1 .interna1 {
+    width: 200px;
+    margin-left: 0;
+  }
+}
+main .contenedor1 .interna1:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+main .contenedor1 .interna1 .subTitulo {
+  padding: 15px 30px 15px 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .interna1 .subTitulo {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor1 .interna1 .subTitulo {
+    padding: 13px;
+    font-size: 20px;
+  }
+}
+main .contenedor1 .interna1 .parrafo {
+  padding: 5px 30px 20px 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .interna1 .parrafo {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor1 .interna1 .parrafo {
+    padding: 13px;
+    padding-top: 8px;
+    font-size: 13px;
+  }
+}
+main .contenedor1 .interna1 .hamb {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .interna1 .hamb {
+    width: 210px;
+    height: 210px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contenedor1 .interna1 .hamb {
+    width: 200px;
+    height: 200px;
+  }
+}
+main .contenedor1 .descuento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  background-color: rgb(211, 181, 49);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .descuento {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor1 .descuento {
+    margin-top: 25px;
+  }
+}
+main .contenedor1 .desc {
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  color: rgb(95, 26, 26);
+  font-size: 26px;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .desc {
+    font-size: 20px;
+  }
+}
+main .contenedor1 .animate__heartBeat {
+  animation-iteration-count: infinite;
+}
+main .contenedor1 .interna2 {
+  width: 320px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px 0px rgb(92, 92, 92);
+  transition: transform 1s;
+  justify-self: center;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .interna2 {
+    width: 210px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor1 .interna2 {
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contenedor1 .interna2 {
+    width: 200px;
+    margin-left: 0;
+  }
+}
+main .contenedor1 .interna2:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+main .contenedor1 .interna2 .subTitulo {
+  padding: 15px 30px 15px 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .interna2 .subTitulo {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor1 .interna2 .subTitulo {
+    padding: 13px;
+    font-size: 20px;
+  }
+}
+main .contenedor1 .interna2 .parrafo {
+  padding: 5px 30px 20px 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .interna2 .parrafo {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor1 .interna2 .parrafo {
+    padding: 13px;
+    padding-top: 8px;
+    font-size: 13px;
+  }
+}
+main .contenedor1 .interna2 .hamb {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor1 .interna2 .hamb {
+    width: 210px;
+    height: 210px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contenedor1 .interna2 .hamb {
+    width: 200px;
+    height: 200px;
+  }
+}
+main .contenedor2 {
+  margin-top: 90px;
+  width: 100%;
+  margin-bottom: 90px;
+  display: grid;
+  grid-template-columns: auto 180px auto;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 {
+    grid-template-columns: auto 140px auto;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor2 {
+    grid-template-columns: auto;
+    grid-template-rows: auto 140px auto;
+    margin-bottom: 50px;
+  }
+}
+main .contenedor2 .interna3 {
+  width: 320px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px 0px rgb(92, 92, 92);
+  transition: transform 1s;
+  justify-self: center;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .interna3 {
+    width: 210px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor2 .interna3 {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contenedor2 .interna3 {
+    width: 200px;
+    margin-left: 0;
+  }
+}
+main .contenedor2 .interna3:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+main .contenedor2 .interna3 .subTitulo {
+  padding: 15px 30px 15px 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .interna3 .subTitulo {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor2 .interna3 .subTitulo {
+    padding: 13px;
+    font-size: 20px;
+  }
+}
+main .contenedor2 .interna3 .parrafo {
+  padding: 5px 30px 20px 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .interna3 .parrafo {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor2 .interna3 .parrafo {
+    padding: 13px;
+    padding-top: 8px;
+    font-size: 13px;
+  }
+}
+main .contenedor2 .interna3 .hamb {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .interna3 .hamb {
+    width: 210px;
+    height: 210px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contenedor2 .interna3 .hamb {
+    width: 200px;
+    height: 200px;
+  }
+}
+main .contenedor2 .oferta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  background-color: rgb(211, 181, 49);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .oferta {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor2 .oferta {
+    margin-top: 25px;
+  }
+}
+main .contenedor2 .ofer {
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  color: rgb(95, 26, 26);
+  font-size: 26px;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .ofer {
+    font-size: 20px;
+  }
+}
+main .contenedor2 .animate__heartBeat {
+  animation-iteration-count: infinite;
+}
+main .contenedor2 .interna4 {
+  width: 320px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px 0px rgb(92, 92, 92);
+  transition: transform 1s;
+  justify-self: center;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .interna4 {
+    width: 210px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor2 .interna4 {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contenedor2 .interna4 {
+    width: 200px;
+    margin-left: 0;
+  }
+}
+main .contenedor2 .interna4:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+main .contenedor2 .interna4 .subTitulo {
+  padding: 15px 30px 15px 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .interna4 .subTitulo {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor2 .interna4 .subTitulo {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+main .contenedor2 .interna4 .parrafo {
+  padding: 5px 30px 20px 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .interna4 .parrafo {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 549px) {
+  main .contenedor2 .interna4 .parrafo {
+    padding: 13px;
+    padding-top: 8px;
+    font-size: 13px;
+  }
+}
+main .contenedor2 .interna4 .hamb {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  main .contenedor2 .interna4 .hamb {
+    width: 210px;
+    height: 210px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contenedor2 .interna4 .hamb {
+    width: 200px;
+    height: 200px;
+  }
+}
+main .contBebidas {
+  text-align: center;
+}
+main .contBebidas .bebidas {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 549px) {
+  main .contBebidas .bebidas {
+    font-size: 20px;
+  }
+}
+main .contBebidas .pBebidas {
+  text-align: center;
+  padding-bottom: 30px;
+  color: rgb(95, 26, 26);
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (max-width: 549px) {
+  main .contBebidas .pBebidas {
+    font-size: 14px;
+  }
+}
+main .contBebidas .imgBebidas {
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 5px 8px 5px 0px rgb(92, 92, 92);
+  transition: transform 1s;
+}
+@media screen and (max-width: 549px) {
+  main .contBebidas .imgBebidas {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contBebidas .imgBebidas {
+    width: 260px;
+    height: 260px;
+  }
+}
+main .contBebidas .imgBebidas:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+main .contacto {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 549px) {
+  main .contacto {
+    padding-top: 50px;
+    font-size: 22px;
+  }
+}
+main .pContacto {
+  text-align: center;
+  padding-bottom: 25px;
+  color: rgb(95, 26, 26);
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (max-width: 549px) {
+  main .pContacto {
+    padding-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+  }
+}
+main .form {
+  padding-bottom: 30px;
+}
+main .form .formulario {
+  width: 300px;
+  margin: auto;
+  background-image: linear-gradient(to top, rgb(211, 181, 49), rgb(95, 26, 26));
+  padding: 20px;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+@media screen and (max-width: 549px) {
+  main .form .formulario {
+    width: 260px;
+  }
+}
+main .form .formulario .input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 257px;
+  padding-left: 3px;
+}
+@media screen and (max-width: 549px) {
+  main .form .formulario .input {
+    width: 220px;
+  }
+}
+main .form .formulario .label {
+  font-size: 14px;
+  color: white;
+}
+@media screen and (max-width: 549px) {
+  main .form .formulario .label {
+    font-size: 13x;
+  }
+}
+main .form .formulario .enviar {
+  background-color: rgb(95, 26, 26);
+  color: white;
+  height: 24px;
+  width: 257px;
+  text-align: center;
+}
+@media screen and (max-width: 549px) {
+  main .form .formulario .enviar {
+    width: 220px;
+  }
+}
+main .form .formulario .enviar:hover {
+  cursor: pointer;
+}
+main .nosotros {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: rgb(95, 26, 26);
+  font-weight: bold;
+}
+@media screen and (max-width: 549px) {
+  main .nosotros {
+    padding-top: 50px;
+    font-size: 22px;
+  }
+}
+main .pNosotros {
+  text-align: center;
+  padding-bottom: 25px;
+  color: rgb(95, 26, 26);
+  padding-left: 45px;
+  padding-right: 45px;
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (max-width: 549px) {
+  main .pNosotros {
+    font-size: 16px;
+  }
+}
+main .mision {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 50px;
+  color: rgb(95, 26, 26);
+  font-weight: bold;
+}
+@media screen and (max-width: 549px) {
+  main .mision {
+    font-size: 22px;
+  }
+}
+main .pMision {
+  text-align: center;
+  padding-bottom: 50px;
+  color: rgb(95, 26, 26);
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (max-width: 549px) {
+  main .pMision {
+    font-size: 16px;
+  }
+}
+main .todo {
+  display: grid;
+  width: 100%;
+}
+main .todo .slide {
+  width: 400px;
+  justify-self: center;
+}
+@media screen and (max-width: 549px) {
+  main .todo .slide {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .todo .slide {
+    width: 280px;
+  }
+}
+main .todo .slide .d-block {
+  border-radius: 50%;
+}
+main .todo .slide .carousel-control-prev-icon {
+  background-color: rgb(211, 181, 49);
+  border-radius: 50%;
+}
+main .todo .slide .carousel-control-next-icon {
+  background-color: rgb(211, 181, 49);
+  border-radius: 50%;
+}
+main .h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 549px) {
+  main .h2 {
+    padding-top: 50px;
+    font-size: 22px;
+  }
+}
+main .pH2 {
+  text-align: center;
+  padding-bottom: 25px;
+  color: rgb(95, 26, 26);
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (max-width: 549px) {
+  main .pH2 {
+    font-size: 16px;
+  }
+}
+main .imgPedidos {
+  text-align: center;
+  margin-top: 30px;
+}
+main .imgPedidos .fotoPedido {
+  border-radius: 10px;
+  box-shadow: 5px 8px 5px 0px rgb(92, 92, 92);
+  transition: transform 1s;
+}
+@media screen and (max-width: 549px) {
+  main .imgPedidos .fotoPedido {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .imgPedidos .fotoPedido {
+    width: 280px;
+    height: 280px;
+  }
+}
+main .imgPedidos .fotoPedido:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+main .texto {
+  text-align: center;
+  padding-top: 30px;
+  color: rgb(95, 26, 26);
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (max-width: 549px) {
+  main .texto {
+    font-size: 15px;
+  }
+}
+main .contBoton {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+main .contBoton .botonPedido {
+  background-color: rgb(211, 181, 49);
+  height: 26px;
+  width: 120px;
+  cursor: pointer;
+}
+main .local {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: rgb(95, 26, 26);
+}
+@media screen and (max-width: 549px) {
+  main .local {
+    padding-top: 50px;
+    font-size: 22px;
+  }
+}
+main .pLocal {
+  text-align: center;
+  padding-bottom: 40px;
+  color: rgb(95, 26, 26);
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (max-width: 549px) {
+  main .pLocal {
+    font-size: 15px;
+  }
+}
+main .contMapa {
+  text-align: center;
+  padding-bottom: 60px;
+}
+main .contMapa .mapa {
+  border-radius: 10px;
+}
+@media screen and (max-width: 549px) {
+  main .contMapa .mapa {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .contMapa .mapa {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+footer {
+  width: 100%;
+}
+
+footer .contFoot {
+  width: 100%;
+  background-color: rgb(211, 181, 49);
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 549px) {
+  footer .contFoot {
+    grid-template-columns: 40px 40px 20px;
+  }
+}
+
+footer .contFoot .redes {
+  height: 26px;
+  text-align: center;
+  padding-top: 7px;
+  background-color: rgb(211, 181, 49);
+  color: rgb(95, 26, 26);
+  justify-content: center;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 549px) {
+  footer .contFoot .redes {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 400px) {
+  footer .contFoot .redes {
+    font-size: 12px;
+  }
+}
+
+footer .contFoot .iconos {
+  height: 60x;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgb(211, 181, 49);
+  justify-content: center;
+}
+
+footer .contFoot .iconos .icon {
+  width: 40px;
+  height: 40px;
+  filter: invert(10%) sepia(57%) saturate(3353%) hue-rotate(346deg) brightness(95%) contrast(93%);
+}
+@media screen and (max-width: 549px) {
+  footer .contFoot .iconos .icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media screen and (max-width: 400px) {
+  footer .contFoot .iconos .icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+footer .contFoot .copy {
+  background-color: rgb(95, 26, 26);
+  color: white;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+  footer .contFoot .copy .copyText {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
