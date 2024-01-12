@@ -1,3 +1,9 @@
+body {
+    @include grande {
+        background-color: rgb(207,233,241);
+        min-height: 1921px;
+    }
+}
 header {
     background-color: $color1;
     width: 100%;
