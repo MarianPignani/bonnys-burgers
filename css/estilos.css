@@ -875,7 +875,7 @@ main .pLocal {
 }
 main .contMapa {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 55px;
 }
 main .contMapa .mapa {
   border-radius: 10px;
@@ -891,6 +891,26 @@ main .contMapa .mapa {
     width: 280px;
     height: 280px;
   }
+}
+main .prox {
+  color: rgb(95, 26, 26);
+  padding: 15px;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 60px;
+  font-weight: bold;
+}
+main .encuesta {
+  color: rgb(95, 26, 26);
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 60px;
+  font-weight: bold;
+}
+main .click {
+  color: rgb(170, 73, 73);
 }
 
 footer {

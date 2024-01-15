@@ -802,7 +802,7 @@ main {
 
     .contMapa {
         text-align: center;
-        padding-bottom: 60px;
+        padding-bottom: 55px;
     
 
         .mapa {
@@ -819,4 +819,28 @@ main {
             }
         }
     }
+
+    .prox {
+        color: $color2;
+        padding: 15px;
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 60px;
+        font-weight: bold;
+    }
+    
+    .encuesta {
+        color: $color2;
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 60px;
+        font-weight: bold;
+    }
+
+    .click {
+        color: rgb(170, 73, 73);
+    }
+    
 }
