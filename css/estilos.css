@@ -35,6 +35,7 @@ header .encabezado .titulo {
   justify-self: center;
   font-size: 55px;
   color: rgb(95, 26, 26);
+  text-decoration: none;
 }
 @media screen and (max-width: 549px) {
   header .encabezado .titulo {
@@ -606,6 +607,8 @@ main .contacto {
 main .pContacto {
   text-align: center;
   padding-bottom: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
   color: rgb(95, 26, 26);
   font-weight: bold;
   font-size: 22px;
@@ -613,8 +616,6 @@ main .pContacto {
 @media screen and (max-width: 549px) {
   main .pContacto {
     padding-bottom: 13px;
-    padding-left: 15px;
-    padding-right: 15px;
     font-size: 16px;
   }
 }
@@ -679,6 +680,23 @@ main .form .formulario .enviar {
 main .form .formulario .enviar:hover {
   transform: scale(1.05);
   cursor: pointer;
+}
+main .encuesta {
+  color: rgb(95, 26, 26);
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 60px;
+  font-weight: bold;
+}
+@media screen and (max-width: 549px) {
+  main .encuesta {
+    font-size: 15px;
+  }
+}
+main .click {
+  color: rgb(170, 73, 73);
 }
 main .nosotros {
   text-align: center;
@@ -864,6 +882,8 @@ main .local {
 main .pLocal {
   text-align: center;
   padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
   color: rgb(95, 26, 26);
   font-weight: bold;
   font-size: 22px;
@@ -900,17 +920,10 @@ main .prox {
   padding-bottom: 60px;
   font-weight: bold;
 }
-main .encuesta {
-  color: rgb(95, 26, 26);
-  padding-left: 80px;
-  padding-right: 80px;
-  font-size: 22px;
-  text-align: center;
-  padding-bottom: 60px;
-  font-weight: bold;
-}
-main .click {
-  color: rgb(170, 73, 73);
+@media screen and (max-width: 549px) {
+  main .prox {
+    font-size: 15px;
+  }
 }
 
 footer {
