@@ -19,6 +19,11 @@ header {
   position: fixed;
   z-index: 99;
 }
+@media screen and (max-width: 400px) {
+  header {
+    position: sticky;
+  }
+}
 header .encabezado {
   width: 100%;
   display: grid;
@@ -60,6 +65,11 @@ header .encabezado .listas .lista {
 @media screen and (max-width: 549px) {
   header .encabezado .listas .lista {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header .encabezado .listas .lista {
+    display: block;
   }
 }
 header .encabezado .listas .menu {
@@ -107,6 +117,11 @@ main .titlee {
   main .titlee {
     padding-top: 50px;
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .titlee {
+    padding-top: 80px;
   }
 }
 main .pIndex {
@@ -604,6 +619,11 @@ main .contacto {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 400px) {
+  main .contacto {
+    padding-top: 80px;
+  }
+}
 main .pContacto {
   text-align: center;
   padding-bottom: 25px;
@@ -712,6 +732,11 @@ main .nosotros {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 400px) {
+  main .nosotros {
+    padding-top: 80px;
+  }
+}
 main .pNosotros {
   text-align: center;
   padding-bottom: 25px;
@@ -793,6 +818,11 @@ main .h2 {
   main .h2 {
     padding-top: 50px;
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .h2 {
+    padding-top: 80px;
   }
 }
 main .pH2 {
@@ -877,6 +907,11 @@ main .local {
   main .local {
     padding-top: 50px;
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .local {
+    padding-top: 80px;
   }
 }
 main .pLocal {

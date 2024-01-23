@@ -20,6 +20,10 @@ main {
             padding-top: 50px;
             font-size: 22px;
         }
+        
+       @include mobile {
+            padding-top: 80px;
+       }
     }
     .pIndex {
         text-align: center;
@@ -507,6 +511,10 @@ main {
             padding-top: 50px;
             font-size: 22px;
         }
+
+        @include mobile {
+            padding-top: 80px;
+       }
     }
 
     .pContacto {
@@ -620,6 +628,10 @@ main {
             padding-top: 50px;
             font-size: 22px;
         }
+
+        @include mobile {
+            padding-top: 80px;
+       }
     }
 
     .pNosotros {
@@ -709,6 +721,10 @@ main {
             padding-top: 50px;
             font-size: 22px;
         }
+
+        @include mobile {
+            padding-top: 80px;
+       }
     }
 
     .pH2 {
@@ -803,6 +819,10 @@ main {
             padding-top: 50px;
             font-size: 22px;
         }
+
+        @include mobile {
+            padding-top: 80px;
+       }
     }
 
     .pLocal {

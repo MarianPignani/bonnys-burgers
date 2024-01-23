@@ -10,6 +10,10 @@ header {
     position: fixed;
     z-index: 99;
 
+    @include mobile {
+        position: sticky;
+    }
+
 
     .encabezado {
         width: 100%;
@@ -52,6 +56,10 @@ header {
 
                 @include intermedio {
                     font-size: 12px;
+                }
+
+                @include mobile {
+                    display: block;
                 }
             }
 
