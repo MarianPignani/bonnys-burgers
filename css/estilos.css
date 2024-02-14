@@ -111,6 +111,11 @@ main {
     padding-top: 120px;
   }
 }
+@media screen and (max-width: 768px) {
+  main {
+    padding-top: 50px;
+  }
+}
 main .titlee {
   text-align: center;
   padding-top: 50px;
@@ -126,7 +131,7 @@ main .titlee {
 }
 @media screen and (max-width: 400px) {
   main .titlee {
-    padding-top: 80px;
+    padding-top: 0px;
   }
 }
 main .pIndex {
@@ -626,7 +631,7 @@ main .contacto {
 }
 @media screen and (max-width: 400px) {
   main .contacto {
-    padding-top: 80px;
+    padding-top: 0px;
   }
 }
 main .pContacto {
@@ -739,7 +744,7 @@ main .nosotros {
 }
 @media screen and (max-width: 400px) {
   main .nosotros {
-    padding-top: 80px;
+    padding-top: 0px;
   }
 }
 main .pNosotros {
@@ -827,7 +832,7 @@ main .h2 {
 }
 @media screen and (max-width: 400px) {
   main .h2 {
-    padding-top: 80px;
+    padding-top: 0px;
   }
 }
 main .pH2 {
@@ -916,7 +921,7 @@ main .local {
 }
 @media screen and (max-width: 400px) {
   main .local {
-    padding-top: 80px;
+    padding-top: 0px;
   }
 }
 main .pLocal {
