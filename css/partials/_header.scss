@@ -59,7 +59,7 @@ header {
                 }
 
                 @include mobile {
-                    display: block;
+                    display: inline-block;
                 }
             }
 
@@ -73,6 +73,10 @@ header {
                 
                 @include intermedio {
                     padding: 10px 14px 10px 14px;
+                }
+
+                @include mobile {
+                    padding: 8px 9px 8px 9px;
                 }
 
                 &:hover {

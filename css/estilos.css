@@ -69,7 +69,7 @@ header .encabezado .listas .lista {
 }
 @media screen and (max-width: 400px) {
   header .encabezado .listas .lista {
-    display: block;
+    display: inline-block;
   }
 }
 header .encabezado .listas .menu {
@@ -83,6 +83,11 @@ header .encabezado .listas .menu {
 @media screen and (max-width: 549px) {
   header .encabezado .listas .menu {
     padding: 10px 14px 10px 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header .encabezado .listas .menu {
+    padding: 8px 9px 8px 9px;
   }
 }
 header .encabezado .listas .menu:hover {
